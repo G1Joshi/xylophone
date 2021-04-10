@@ -41,7 +41,7 @@ class Tile extends StatelessWidget {
   final Color color;
   final int number;
 
-  void play(int number) => AudioCache().play('assets/note$number.wav');
+  void play(int number) => AudioCache().play('note$number.wav');
 
   @override
   Widget build(BuildContext context) {
